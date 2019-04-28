@@ -1,0 +1,33 @@
+{
+  "name": "vehiculos",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "^2.5.9",
+    "express": "~4.16.0",
+    "express-flash-notification": "^0.5.0",
+    "http-errors": "~1.6.2",
+    "mongoose": "^5.4.5",
+    "morgan": "^1.9.1",
+    "sync-each": "^1.0.1",
+    "uuid": "^3.3.2"
+  },
+  "description": "Registrar autos con sus respectivos dueños. Consumir recursos desde la red como un listado de propietarios",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaEncalada/vehiculos.git"
+  },
+  "author": "Encalada Maria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaEncalada/vehiculos/issues"
+  },
+  "homepage": "https://github.com/MariaEncalada/vehiculos#readme"
+}
